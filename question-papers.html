@@ -43,6 +43,15 @@
 
   <!-- ================= SEARCHABLE CONTENT ================= -->
   <div id="contentArea">
+<!-- ================= PDF VIEWER ================= -->
+<div id="pdfViewer" style="margin-top:30px; display:none;">
+  <iframe
+    id="pdfFrame"
+    width="100%"
+    height="800px"
+    style="border:none;"
+  ></iframe>
+</div>
 
     <!-- ================= 2023 ================= -->
     <details>
@@ -51,20 +60,21 @@
       <details>
         <summary>February Examination</summary>
         <div class="exam-buttons">
-          <a class="btn qp" href="pdfs/tnmgr/2023/february/question-paper.pdf#toolbar=0" target="_blank">Question Paper</a>
-          <a class="btn mcq" href="pdfs/tnmgr/2023/february/solved-mcq.pdf#toolbar=0" target="_blank">Solved MCQ</a>
-          <a class="btn long" href="pdfs/tnmgr/2023/february/long-essays.pdf#toolbar=0" target="_blank">Solved Long Essays</a>
-          <a class="btn short" href="pdfs/tnmgr/2023/february/short-essays.pdf#toolbar=0" target="_blank">Solved Short Essays</a>
+          <a class="btn qp" href="#" onclick="openPDF('pdfs/tnmgr/2023/february/question-paper.pdf')">Question Paper</a>
+<a class="btn mcq" href="#" onclick="openPDF('pdfs/tnmgr/2023/february/solved-mcq.pdf')">Solved MCQ</a>
+<a class="btn long" href="#" onclick="openPDF('pdfs/tnmgr/2023/february/long-essays.pdf')">Solved Long Essays</a>
+<a class="btn short" href="#" onclick="openPDF('pdfs/tnmgr/2023/february/short-essays.pdf')">Solved Short Essays</a>
+
         </div>
       </details>
 
       <details>
         <summary>June Examination</summary>
         <div class="exam-buttons">
-          <a class="btn qp" href="pdfs/tnmgr/2023/june/question-paper.pdf#toolbar=0" target="_blank">Question Paper</a>
-          <a class="btn mcq" href="pdfs/tnmgr/2023/june/solved-mcq.pdf#toolbar=0" target="_blank">Solved MCQ</a>
-          <a class="btn long" href="pdfs/tnmgr/2023/june/long-essays.pdf#toolbar=0" target="_blank">Solved Long Essays</a>
-          <a class="btn short" href="pdfs/tnmgr/2023/june/short-essays.pdf#toolbar=0" target="_blank">Solved Short Essays</a>
+         <a class="btn qp" href="#" onclick="openPDF('pdfs/tnmgr/2023/june/question-paper.pdf')">Question Paper</a>
+<a class="btn mcq" href="#" onclick="openPDF('pdfs/tnmgr/2023/june/solved-mcq.pdf')">Solved MCQ</a>
+<a class="btn long" href="#" onclick="openPDF('pdfs/tnmgr/2023/june/long-essays.pdf')">Solved Long Essays</a>
+<a class="btn short" href="#" onclick="openPDF('pdfs/tnmgr/2023/june/short-essays.pdf')">Solved Short Essays</a>
 
         </div>
       </details>
@@ -77,20 +87,20 @@
       <details>
         <summary>February Examination</summary>
         <div class="exam-buttons">
-          <a class="btn qp" href="pdfs/tnmgr/2024/february/question-paper.pdf#toolbar=0" target="_blank">Question Paper</a>
-          <a class="btn mcq" href="pdfs/tnmgr/2024/february/solved-mcq.pdf#toolbar=0" target="_blank">Solved MCQ</a>
-          <a class="btn long" href="pdfs/tnmgr/2024/february/long-essays.pdf#toolbar=0" target="_blank">Solved Long Essays</a>
-          <a class="btn short" href="pdfs/tnmgr/2024/february/short-essays.pdf#toolbar=0" target="_blank">Solved Short Essays</a>
+          <a class="btn qp" href="#" onclick="openPDF('pdfs/tnmgr/2024/february/question-paper.pdf')">Question Paper</a>
+<a class="btn mcq" href="#" onclick="openPDF('pdfs/tnmgr/2024/february/solved-mcq.pdf')">Solved MCQ</a>
+<a class="btn long" href="#" onclick="openPDF('pdfs/tnmgr/2024/february/long-essays.pdf')">Solved Long Essays</a>
+<a class="btn short" href="#" onclick="openPDF('pdfs/tnmgr/2024/february/short-essays.pdf')">Solved Short Essays</a>
         </div>
       </details>
 
       <details>
         <summary>May Examination</summary>
         <div class="exam-buttons">
-            <a class="btn qp" href="pdfs/tnmgr/2024/may/question-paper.pdf#toolbar=0" target="_blank">Question Paper</a>
-          <a class="btn mcq" href="pdfs/tnmgr/2024/may/solved-mcq.pdf#toolbar=0" target="_blank">Solved MCQ</a>
-          <a class="btn long" href="pdfs/tnmgr/2024/may/long-essays.pdf#toolbar=0" target="_blank">Solved Long Essays</a>
-          <a class="btn short" href="pdfs/tnmgr/2024/may/short-essays.pdf#toolbar=0" target="_blank">Solved Short Essays</a>
+           <a class="btn qp" href="#" onclick="openPDF('pdfs/tnmgr/2024/may/question-paper.pdf')">Question Paper</a>
+<a class="btn mcq" href="#" onclick="openPDF('pdfs/tnmgr/2024/may/solved-mcq.pdf')">Solved MCQ</a>
+<a class="btn long" href="#" onclick="openPDF('pdfs/tnmgr/2024/may/long-essays.pdf')">Solved Long Essays</a>
+<a class="btn short" href="#" onclick="openPDF('pdfs/tnmgr/2024/may/short-essays.pdf')">Solved Short Essays</a>
         </div>
       </details>
     </details>
@@ -102,20 +112,20 @@
       <details>
         <summary>January Examination</summary>
         <div class="exam-buttons">
-          <a class="btn qp" href="pdfs/tnmgr/2025/january/question-paper.pdf#toolbar=0" target="_blank">Question Paper</a>
-          <a class="btn mcq" href="pdfs/tnmgr/2025/january/solved-mcq.pdf#toolbar=0" target="_blank">Solved MCQ</a>
-          <a class="btn long" href="pdfs/tnmgr/2025/january/long-essays.pdf#toolbar=0" target="_blank">Solved Long Essays</a>
-          <a class="btn short" href="pdfs/tnmgr/2025/january/short-essays.pdf#toolbar=0" target="_blank">Solved Short Essays</a>
+         <a class="btn qp" href="#" onclick="openPDF('pdfs/tnmgr/2025/january/question-paper.pdf')">Question Paper</a>
+<a class="btn mcq" href="#" onclick="openPDF('pdfs/tnmgr/2025/january/solved-mcq.pdf')">Solved MCQ</a>
+<a class="btn long" href="#" onclick="openPDF('pdfs/tnmgr/2025/january/long-essays.pdf')">Solved Long Essays</a>
+<a class="btn short" href="#" onclick="openPDF('pdfs/tnmgr/2025/january/short-essays.pdf')">Solved Short Essays</a>
         </div>
       </details>
 
       <details>
         <summary>March Examination</summary>
         <div class="exam-buttons">
-          <a class="btn qp" href="pdfs/tnmgr/2025/march/question-paper.pdf#toolbar=0" target="_blank">Question Paper</a>
-          <a class="btn mcq" href="pdfs/tnmgr/2025/march/solved-mcq.pdf#toolbar=0" target="_blank">Solved MCQ</a>
-          <a class="btn long" href="pdfs/tnmgr/2025/march/long-essays.pdf#toolbar=0" target="_blank">Solved Long Essays</a>
-          <a class="btn short" href="pdfs/tnmgr/2025/march/short-essays.pdf#toolbar=0" target="_blank">Solved Short Essays</a>
+           <a class="btn qp" href="#" onclick="openPDF('pdfs/tnmgr/2025/march/question-paper.pdf')">Question Paper</a>
+<a class="btn mcq" href="#" onclick="openPDF('pdfs/tnmgr/2025/march/solved-mcq.pdf')">Solved MCQ</a>
+<a class="btn long" href="#" onclick="openPDF('pdfs/tnmgr/2025/march/long-essays.pdf')">Solved Long Essays</a>
+<a class="btn short" href="#" onclick="openPDF('pdfs/tnmgr/2025/march/short-essays.pdf')">Solved Short Essays</a>
         </div>
       </details>
     </details>
@@ -140,6 +150,18 @@ function searchContent() {
   });
 }
 </script>
+<script>
+function openPDF(pdfPath) {
+  const viewer = document.getElementById("pdfViewer");
+  const frame = document.getElementById("pdfFrame");
+
+  frame.src = pdfPath + "#toolbar=0&navpanes=0&scrollbar=1";
+  viewer.style.display = "block";
+
+  viewer.scrollIntoView({ behavior: "smooth" });
+}
+</script>
 
 </body>
 </html>
+
