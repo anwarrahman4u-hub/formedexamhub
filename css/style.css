@@ -239,4 +239,15 @@ footer {
   display: block;
   margin: 20px auto;
 }
+/* Circular profile photo */
+.profile-photo {
+  width: 200px;            /* size of circle */
+  height: 200px;           /* equal height for circle */
+  border-radius: 50%;      /* makes it round */
+  object-fit: cover;       /* crops to fit circle nicely */
+  display: block;          /* centers block-level image */
+  margin: 20px auto;       /* center horizontally */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optional shadow */
+}
+
 
