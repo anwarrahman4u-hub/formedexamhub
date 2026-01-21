@@ -140,17 +140,6 @@
 
 <!-- ================= SEARCH SCRIPT ================= -->
 <script>
-function searchContent() {
-  const input = document.getElementById("searchInput").value.toLowerCase();
-  const detailsBlocks = document.querySelectorAll("#contentArea > details");
-
-  detailsBlocks.forEach(block => {
-    const text = block.innerText.toLowerCase();
-    block.style.display = text.includes(input) ? "block" : "none";
-  });
-}
-</script>
-<script>
 function openPDF(pdfPath) {
   const viewer = document.getElementById("pdfViewer");
   const frame = document.getElementById("pdfFrame");
@@ -164,4 +153,5 @@ function openPDF(pdfPath) {
 
 </body>
 </html>
+
 
