@@ -308,27 +308,22 @@ footer {
   margin: 0 auto;
   border-radius: 14px;
 }
-/* Coming Soon – Portrait image control */
+/* Coming Soon – show image at original size */
 .coming-soon-section {
     width: 100%;
     text-align: center;
     margin: 40px auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 
-/* Coming Soon – Portrait image at ~90% original size */
 .coming-soon-section img {
-    max-height: 315px;   /* 9/10 of original look */
-    width: auto;         /* keep portrait ratio */
-    max-width: 100%;
+    width: auto;          /* original width */
+    height: auto;         /* original height */
+    max-width: 100%;      /* prevent overflow on small screens */
     display: block;
-    margin: 0 auto;      /* center */
-    object-fit: contain;
-    opacity: 0.95;
+    margin: 0 auto;       /* center horizontally */
 }
-
-
-
+max-width: 100%;
 
 
 
