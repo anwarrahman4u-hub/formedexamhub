@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -232,33 +242,34 @@ footer {
   margin: 0 auto 20px auto; /* center & spacing below image */
 }
 /* Exam writing image section */
-/* ===== Exam writing image – mobile-safe ===== */
+/* ===== Exam writing image – width safe ===== */
 .exam-image-section {
   width: 100%;
+  max-width: 100%;
   padding: 20px 12px;
-  display: flex;
-  justify-content: center;
+  display: block;
 }
 
 .exam-image-section img {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
   display: block;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.25);
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .exam-image-section {
-    padding: 16px 10px;
+    padding: 14px 10px;
   }
 
   .exam-image-section img {
-    width: 100%;
-    max-width: 100%;
     border-radius: 12px;
   }
 }
+
+
 
 
 
