@@ -316,9 +316,9 @@ footer {
     padding: 20px;
 }
 
-/* Coming Soon – Portrait image at ~75% original size */
+/* Coming Soon – Portrait image at ~90% original size */
 .coming-soon-section img {
-    max-height: 315px;   /* 3/4 of original look */
+    max-height: 315px;   /* 9/10 of original look */
     width: auto;         /* keep portrait ratio */
     max-width: 100%;
     display: block;
@@ -333,6 +333,7 @@ footer {
         max-height: 260px;
     }
 }
+
 
 
 
