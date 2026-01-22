@@ -326,6 +326,12 @@ footer {
     opacity: 0.95;
 }
 
+@media (max-width: 768px) {
+    .coming-soon-section img {
+        max-height: 200px;
+    }
+}
+
 
 
 
