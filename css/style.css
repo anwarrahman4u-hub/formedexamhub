@@ -269,20 +269,20 @@ footer {
   }
 }
 /* Classroom image between hero & profile */
+/* ===== Full-width classroom image ===== */
 .classroom-image-section {
   width: 100%;
-  padding: 30px 12px;
-  text-align: center;
-  background: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .classroom-image-section img {
-  max-width: 900px;
   width: 100%;
   height: auto;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  display: block;
+  object-fit: cover;
 }
+
 @media (max-width: 768px) {
   .classroom-image-section {
     padding: 20px 10px;
@@ -308,6 +308,7 @@ footer {
   margin: 0 auto;
   border-radius: 14px;
 }
+
 
 
 
