@@ -308,10 +308,7 @@ footer {
   margin: 0 auto;
   border-radius: 14px;
 }
-/* ============================= */
-/* COMING SOON SECTION */
-/* ============================= */
-
+/* Coming Soon – Portrait image control */
 .coming-soon-section {
     width: 100%;
     text-align: center;
@@ -319,31 +316,15 @@ footer {
     padding: 20px;
 }
 
-/* Smaller Coming Soon image */
 .coming-soon-section img {
-    max-width: 220px;   /* HALF size */
-    width: 60%;
-    height: auto;
+    max-height: 260px;   /* HALF LENGTH */
+    width: auto;         /* keep portrait ratio */
+    max-width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto;      /* CENTER IMAGE */
+    object-fit: contain;
     opacity: 0.95;
 }
-@media (max-width: 768px) {
-    .coming-soon-section img {
-        max-width: 180px;
-        width: 70%;
-    }
-}
-
-
-.coming-soon-text {
-    margin-top: 12px;
-    font-size: 1rem;
-    color: #444;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-}
-
 
 
 
