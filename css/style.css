@@ -316,21 +316,25 @@ footer {
     padding: 20px;
 }
 
+/* Coming Soon – Portrait image at ~75% original size */
 .coming-soon-section img {
-    max-height: 260px;   /* HALF LENGTH */
+    max-height: 315px;   /* 3/4 of original look */
     width: auto;         /* keep portrait ratio */
     max-width: 100%;
     display: block;
-    margin: 0 auto;      /* CENTER IMAGE */
+    margin: 0 auto;      /* center */
     object-fit: contain;
     opacity: 0.95;
 }
 
+
 @media (max-width: 768px) {
     .coming-soon-section img {
-        max-height: 200px;
+        max-height: 260px;
     }
 }
+
+
 
 
 
