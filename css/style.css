@@ -231,6 +231,25 @@ footer {
   display: block;
   margin: 0 auto 20px auto; /* center & spacing below image */
 }
+/* Exam writing image section */
+.exam-image-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: #ffffff;
+}
+
+.exam-image-section img {
+  width: 85%;
+  max-width: 900px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+@media (max-width: 768px) {
+  .exam-image-section img {
+    width: 95%;
+  }
+}
+
 
 
 
