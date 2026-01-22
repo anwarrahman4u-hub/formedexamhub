@@ -292,6 +292,23 @@ footer {
     border-radius: 12px;
   }
 }
+/* FORCE classroom image visibility */
+.classroom-image-section {
+  display: block !important;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+}
+
+.classroom-image-section img {
+  display: block !important;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
 
 
 
