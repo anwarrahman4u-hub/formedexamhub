@@ -309,7 +309,7 @@ footer {
   border-radius: 14px;
 }
 
-/* Coming Soon – Portrait image at 75% original size */
+/* Coming Soon – show image at original size */
 .coming-soon-section {
     width: 100%;
     text-align: center;
@@ -318,14 +318,14 @@ footer {
 }
 
 .coming-soon-section img {
+    width: auto;          /* original width */
+    height: auto;         /* original height */
+    max-width: 100%;      /* prevent overflow on small screens */
     display: block;
-    margin: 0 auto;
-    width: auto;
-    height: auto;
-    max-width: 100%;        /* mobile safety */
-    transform: scale(0.75); /* 75% of ORIGINAL size */
-    transform-origin: center;
+    margin: 0 auto;       /* center horizontally */
 }
+max-width: 100%;
+
 
 
 
